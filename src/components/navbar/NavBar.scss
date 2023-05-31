@@ -1,0 +1,10 @@
+@import "../global.scss";
+
+.navbar{
+    background-color: $background-color !important;
+    border-radius: 10px;
+}
+.title {
+    color: $primary-color;
+    text-shadow: 1px 1px 10px $primary-color;
+}

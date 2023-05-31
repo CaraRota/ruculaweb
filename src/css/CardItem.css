@@ -1,0 +1,50 @@
+.card {
+  background-color: #90c268;
+  border-color: #b1e38c !important;
+}
+
+.card-item-container {
+  display: grid;
+}
+
+.cotizacion-icon {
+  font-size: 50px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  align-items: center;
+  color: #b1e38c;
+}
+
+.cotizacion-titulo {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  color: #b1e38c;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.cotizacion-fecha {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  color: #b1e38c;
+  font-size: 12px;
+}
+
+.cotizacion-venta {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 10px #b1e38c;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.cotizacion-variacion {
+  color: #b1e38c;
+}/*# sourceMappingURL=CardItem.css.map */

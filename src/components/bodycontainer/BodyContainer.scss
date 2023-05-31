@@ -1,0 +1,14 @@
+@import "../global.scss";
+
+.container {
+    margin-top: 1rem;
+    background-color: red;
+    border-radius: 10px;
+    max-height: 80lvh;
+}
+
+.bodyContainerSpinner {
+    color: black !important;
+    display: flex;
+    justify-content: center;
+}
